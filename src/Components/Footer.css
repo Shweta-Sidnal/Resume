@@ -1,0 +1,25 @@
+.footer{
+background-color: black;
+display: flex;
+flex-wrap: wrap;
+color: white;
+align-items: center;
+justify-content: space-between;
+min-height: 5px !important;
+border-radius: 5px;
+padding: 20px 25px;
+margin-left: 15px;
+}
+.footer .copyright{
+    font-size: small;
+    text-align: end;
+    color: rgb(167, 165, 165);
+}
+
+.footer .copyright a{
+    text-decoration: none;
+    color:beige;
+}
+.footer_right{
+
+}

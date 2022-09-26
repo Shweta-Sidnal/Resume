@@ -1,0 +1,71 @@
+
+:root{
+    --main-color:yellow;
+}
+.margin_top{
+    margin-top: 40px;
+}
+.about_container{
+    margin-left: 15px;
+    margin-top: 15px;
+    position: relative;
+    display: inline-block;
+    padding: 3px;
+}
+.about_container .about_title{
+    font-size: 25px;
+    font-weight: 400;
+}
+.about_container .about_content{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.grid_center{
+    min-height: 65vh;
+    background-color: rgb(249, 239, 239) ;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.about_container .span_container span{
+    position: absolute;
+    height: 7px;
+    width: 98%;
+    bottom: 50;
+    opacity: 0.4;
+    left: 0;
+    background-color:yellowgreen ;
+}
+.about_content .contact_title{
+    font-size: 18px;
+    margin: 15px;
+    color: gray;
+}
+.about_content .contact_title .span_title{
+    font-weight: 800;
+    color: black;
+}
+
+.Education_container{
+    margin-left:25px;
+    padding-top: 10px;
+}
+.Education_container .edu_title{
+    font-size: 15px;
+    font-weight: 800;
+}
+.Education_container .project_title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.skill{
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 2rem;
+        grid-column-gap: 3rem;
+        @media screen and (max-width: 700px){
+            grid-template-columns: repeat(1, 1fr);
+
+}
+}

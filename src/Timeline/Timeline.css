@@ -1,0 +1,47 @@
+.timeline {
+    padding: 0 !important;
+}
+
+.timeline .timeline_header{
+    padding-top: 7px;
+    font-size: 25px;
+    font-weight: 800;
+
+
+}
+ 
+.timeline .timeline_firstItem{
+    min-height: 80px !important;
+
+}
+.timeline .MuiTimelineItem-root{
+    min-height: 10px ;
+}
+.timeline  .MuiTimelineItem-missingOppositeContent:before{
+    display: none;
+}
+.timeline .timeline_dot_header{
+    color: rgb(100, 98, 98);
+    background-color: yellowgreen;
+    padding: 5px;
+    /* font-size: smaller; */
+}
+.timeline .timeline_dot{
+    color: black;
+    border-color: #9acd32;
+    padding: 3px;
+}
+.timeline .MuiTimelineConnector-root{
+    background-color: rgb(252, 250, 250);
+}
+
+.timeline .timeline_separator{
+    padding-left: 15px;
+    
+
+}
+
+.timeline .timeline_content{
+    padding: 0px;
+    margin-bottom: 20px;
+}
