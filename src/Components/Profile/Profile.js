@@ -44,7 +44,7 @@ const Profile = () => {
          </BasicTimeline>
           <br/>
           <div className='btn_container'>
-            <a href=" https://www.facebook.com/" target='_blank' style={{textDecoration:'none'}}>
+            <a href=" https://drive.google.com/file/d/1HeAQbomReXBoAmHZaPDXB422JFAhPg1f/view?usp=sharing" target='_blank' style={{textDecoration:'none'}}>
           <CustomButton text={'Download CV'} icon={<GetAppIcon/>}  />
           </a>
           </div>
