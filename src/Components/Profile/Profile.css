@@ -2,14 +2,14 @@
     background-color: rgb(249, 239, 239);
     border-radius: 10px;
     width: 100%;
-    height: 100%;
+    height: 97%;
     display: inline-block;
     margin-right: 20px !important;
 }
 .profile_name
 {
     line-height: 22px !important;
-    padding: 20px !important;
+    padding: 15px !important;
 
 }
 .name

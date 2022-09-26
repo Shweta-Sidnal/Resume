@@ -3,7 +3,7 @@
     --main-color:yellow;
 }
 .margin_top{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .about_container{
     margin-left: 15px;
@@ -21,7 +21,7 @@
     margin-top: 15px;
 }
 .grid_center{
-    min-height: 65vh;
+    min-height: 69vh;
     background-color: rgb(249, 239, 239) ;
     border-radius: 10px;
     margin-left: 15px;
