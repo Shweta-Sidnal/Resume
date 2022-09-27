@@ -14,7 +14,7 @@ const pages = ['Education','Skills', 'Projects', 'Contact'];
 const Header = () => {
   
   return (
-    <AppBar position="static" style={{background:'#b2e342',marginLeft:'15px',borderRadius:'5px', width:'129vh'}}>
+    <AppBar position="static" style={{background:'#b2e342',marginLeft:'15px',borderRadius:'5px', width:'110vh'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{marginLeft:'-23px'}}>

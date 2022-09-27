@@ -18,7 +18,6 @@ const About = () => {
           <li>Good knowledge in understanding of DAX functions. </li>
           <li>Have good analytical skills with ability to collect,organize and analyze data. </li>
         </ul>
-
       </div>
     </div>
   )
